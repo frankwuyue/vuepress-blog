@@ -5,7 +5,8 @@ module.exports = {
 		nav: [
 			{ text: 'Code', link: '/code/' },
       { text: 'Finance', link: '/finance/' },
-      { text: '中文', link: '/zh/' },
+			{ text: '中文', link: '/zh/' },
+			{ text: 'GitHub', link: 'https://github.com/frankwuyue/vuepress-blog' },
 		],
 		search: false,
 		sidebar: {
