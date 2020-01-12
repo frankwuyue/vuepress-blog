@@ -1,32 +1,48 @@
 module.exports = {
-  title: 'Hello VuePress',
+	title: 'Hello VuePress',
 	description: 'Just playing around',
 	themeConfig: {
-		nav: [
-			{ text: 'Code', link: '/code/' },
-      { text: 'Finance', link: '/finance/' },
-			{ text: '中文', link: '/zh/' },
-			{ text: 'GitHub', link: 'https://github.com/frankwuyue/vuepress-blog' },
+		nav: [{
+				text: 'Code',
+				link: '/code/'
+			},
+			{
+				text: 'Finance',
+				link: '/finance/'
+			},
+			{
+				text: '中文',
+				link: '/zh/'
+			},
+			{
+				text: 'Other',
+				link: '/other/'
+			},
+			{
+				text: 'GitHub',
+				link: 'https://github.com/frankwuyue/vuepress-blog'
+			},
 		],
 		search: false,
 		sidebar: {
-			'/code/' : [
+			'/code/': [
 				'',
-				'vue-blog'
+				'spring'
 			],
 
-			'/finance/' : [
+			'/finance/': [
 				''
 			],
 
-			'/zh/' : [
-				''
+			'/zh/': [
+				'',
+				'2019-todo-list'
 			],
 
-			'/' : [
+			'/': [
 				'',
 				'about'
 			]
 		}
-  }
+	}
 }
